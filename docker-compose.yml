@@ -1,2 +1,4 @@
 jenkinsmaster:
-  build: ./jenkins
+  build: ./Jenkins
+  ports: 
+   - "8080:8080"
